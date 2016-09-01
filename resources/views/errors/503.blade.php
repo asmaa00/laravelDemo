@@ -41,6 +41,12 @@
         <div class="container">
             <div class="content">
                 <div class="title">Be right back.</div>
+                @extends('layouts.app')
+
+                @section('content')
+                	<h1>You don't have permission.</h1>
+                @endsection
+
             </div>
         </div>
     </body>
